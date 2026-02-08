@@ -5,6 +5,7 @@ import kz.star.cinema.model.Movie;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/movies")
 public class MovieController {

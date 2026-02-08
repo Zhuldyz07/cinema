@@ -29,5 +29,4 @@ public class Viewer extends Person{
     public void setMovie(String movie) {
         this.movie = movie;
     }
-
 }
